@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying dissertation."
+title: "Decimal Subproblem Augmentation"
+type: software
+authors:
+  - family-names: Mittal
+    given-names: Akshat
+version: 0.1.0
+date-released: 2026-09-09

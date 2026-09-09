@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "families": {
+    "subtraction_remainder": [
+      "A box originally had {initial} items. After {removed} were taken, {variable} remained. What is {variable}?",
+      "{initial} was the starting amount. When {removed} is subtracted, the result is {variable}. Find {variable}.",
+      "If you begin with {initial} and remove {removed}, how much is {variable} left?",
+      "{variable} equals the difference between {initial} and {removed}. Calculate {variable}.",
+      "Starting with {initial}, after a reduction of {removed}, the remaining quantity is {variable}. Determine {variable}.",
+      "A sum of {initial} was reduced by {removed}, resulting in {variable}. What is {variable}?",
+      "{initial} minus {removed} gives {variable}. Solve for {variable}.",
+      "Originally {initial}, after {removed} was subtracted, {variable} is what's left. Find {variable}.",
+      "The remainder after subtracting {removed} from {initial} is {variable}. What is {variable}?",
+      "With an initial value of {initial}, and {removed} removed, {variable} remains. Calculate {variable}.",
+      "{initial} units were present. After {removed} units were removed, {variable} units are left. What is {variable}?",
+      "{variable} is the amount remaining after {removed} is taken from {initial}. Determine {variable}."
+    ],
+    "equal_shares": [
+      "{total} dollars are split evenly among {count} people. Each person receives {variable} dollars. Find {variable}.",
+      "A {total} meter ribbon is divided into {count} equal sections. Each section measures {variable} meters. Determine {variable}.",
+      "{count} workers share {total} hours of overtime. Each worker gets {variable} hours. What is {variable}?",
+      "When {total} candies are distributed among {count} children, each child gets {variable} candies. Calculate {variable}.",
+      "A {total} pound cake is cut into {count} equal slices. Each slice weighs {variable} pounds. Find {variable}.",
+      "{count} teams are allocated {total} points. Each team earns {variable} points. Determine {variable}.",
+      "Dividing {total} minutes equally among {count} tasks results in each task taking {variable} minutes. What is {variable}?",
+      "There are {count} identical jars filled with {total} liters of oil. Each jar contains {variable} liters. Calculate {variable}.",
+      "{total} pages are divided into {count} chapters of equal length. Each chapter has {variable} pages. Find {variable}.",
+      "A {total} gallon container is emptied into {count} bottles. Each bottle holds {variable} gallons. Determine {variable}.",
+      "{count} friends split {total} euros equally. Each friend receives {variable} euros. What is {variable}?",
+      "The {total} mile race is divided into {count} equal segments. Each segment is {variable} miles long. Calculate {variable}."
+    ],
+    "unit_price": [
+      "{count} identical items were bought for a total of {total}. The unit price {variable} can be calculated by dividing {total} by {count}. What is {variable}?",
+      "A total of {total} was spent on {count} units of a product. If the unit price is {variable}, solve for {variable}.",
+      "For {count} units priced at {variable} each, the total cost is {total}. What value of {variable} satisfies this equation?",
+      "The {total} paid for {count} items corresponds to a unit price of {variable}. Determine {variable}.",
+      "When {count} items are purchased, the total is {total}. The unit price {variable} equals {total} divided by {count}. Find {variable}.",
+      "A {total} expenditure covers {count} units. If each unit costs {variable}, what is {variable}?",
+      "Given {count} units with a total cost of {total}, the unit price {variable} is {total} divided by {count}. Calculate {variable}.",
+      "The {total} amount covers {count} units. The individual unit price {variable} is unknown. Find {variable}.",
+      "If {count} items total {total}, then the {variable} per item is {total} divided by {count}. What is {variable}?",
+      "The unit price {variable} for {count} items totals {total}. Solve for {variable}.",
+      "With {count} units costing {total}, the unit price {variable} is determined by {total} divided by {count}. What is {variable}?",
+      "A {total} payment was made for {count} units. The {variable} per unit is {total} divided by {count}. Determine {variable}."
+    ],
+    "constant_rate": [
+      "A car drives {distance} miles in {hours} hours. The constant speed is {variable}. Calculate {variable}.",
+      "A factory produces {distance} items in {hours} hours. The rate is {variable}. Find {variable}.",
+      "If {distance} meters are covered in {hours} hours, the constant rate is {variable}. What is {variable}?",
+      "A runner completes {distance} kilometers in {hours} hours. The rate is {variable}. Determine {variable}.",
+      "A conveyor belt moves {distance} units in {hours} hours. The rate is {variable}. What is {variable}?",
+      "A cyclist travels {distance} miles in {hours} hours. The constant rate is {variable}. Solve for {variable}.",
+      "A plane flies {distance} kilometers in {hours} hours. The rate is {variable}. Find {variable}.",
+      "A train covers {distance} miles in {hours} hours. Its speed is {variable}. Determine {variable}.",
+      "A robot assembles {distance} parts in {hours} hours. The rate is {variable}. What is {variable}?",
+      "A river current carries {distance} kilometers in {hours} hours. The rate is {variable}. Calculate {variable}.",
+      "A delivery truck transports {distance} packages in {hours} hours. The constant rate is {variable}. Find {variable}.",
+      "An athlete swims {distance} meters in {hours} hours. The rate is {variable}. Determine {variable}."
+    ],
+    "missing_average": [
+      "The arithmetic mean of {known} and {variable} is {mean}. Find {variable}.",
+      "Two measurements, {known} and {variable}, have average {mean}. Determine {variable}.",
+      "A pair of scores consists of {known} and {variable}. Their mean is {mean}. What is the missing score {variable}?",
+      "Given that the average of {known} and {variable} equals {mean}, calculate {variable}.",
+      "In a data set containing {known} and {variable}, the mean is {mean}. What is {variable}?",
+      "If the average of {variable} and {known} is {mean}, solve for {variable}.",
+      "The mean value of {known} and {variable} is {mean}. What is {variable}?",
+      "When {variable} is averaged with {known}, the result is {mean}. What is {variable}?",
+      "What is {variable} if the average of {known} and {variable} is {mean}?",
+      "Two quantities, {known} and {variable}, have an average of {mean}. Determine {variable}.",
+      "The average of {known} and the unknown {variable} is given as {mean}. Find the value of {variable}.",
+      "Determine the value of {variable} when the mean of {known} and {variable} is {mean}."
+    ],
+    "midpoint": [
+      "In a coordinate system, the halfway point between {endpoint} and {variable} is {midpoint}. What is {variable}?",
+      "If {midpoint} is the center of the segment connecting {endpoint} and {variable}, find {variable}.",
+      "The distance from {endpoint} to {midpoint} equals the distance from {midpoint} to {variable}. Determine {variable}.",
+      "On a scale, {midpoint} is equidistant from {endpoint} and {variable}. Calculate {variable}.",
+      "A line segment has endpoints {endpoint} and {variable}, with {midpoint} as its middle. Solve for {variable}.",
+      "Given that {midpoint} is the average of {endpoint} and {variable}, what is {variable}?",
+      "The point {midpoint} lies between {endpoint} and {variable}, dividing the segment equally. Find {variable}.",
+      "In geometry, {midpoint} is the middle of the line from {endpoint} to {variable}. Determine {variable}.",
+      "The value {midpoint} is exactly halfway between {endpoint} and {variable}. What is {variable}?",
+      "A segment with one endpoint at {endpoint} and midpoint at {midpoint} ends at {variable}. Solve for {variable}.",
+      "If {variable} is one endpoint and {endpoint} is the other, then {midpoint} is their halfway point. Calculate {variable}.",
+      "On a number line, {midpoint} is the center between {endpoint} and {variable}. What is {variable}?"
+    ],
+    "arithmetic_sequence": [
+      "An arithmetic sequence begins with {first}, and the term at position {index} equals {last}. What is the common difference {variable}?",
+      "Starting from {first}, the {index}th element of the sequence is {last}. Compute the constant increment {variable}.",
+      "Given the first term {first} and the {index}th term {last}, determine the common difference {variable} of the sequence.",
+      "In an arithmetic progression, the initial value is {first}, and the term at index {index} is {last}. Solve for the step size {variable}.",
+      "A sequence starts at {first}, with the {index}th term being {last}. What is the common difference {variable}?",
+      "The first term of the sequence is {first}, and the value at position {index} is {last}. Find the constant difference {variable}.",
+      "From {first}, an arithmetic sequence reaches {last} at the {index}th position. Calculate the common difference {variable}.",
+      "With the first term {first} and the {index}th term {last}, what is the common difference {variable} of the sequence?",
+      "An arithmetic sequence has {first} as its first term and {last} as its {index}th term. Determine the common difference {variable}.",
+      "Starting with {first}, the term at index {index} is {last}. What is the common difference {variable}?",
+      "The initial term is {first}, and the {index}th term is {last}. What is the common difference {variable} in this sequence?",
+      "In a sequence beginning with {first}, the {index}th term is {last}. Solve for the common difference {variable}."
+    ],
+    "place_value": [
+      "Moving the decimal point in the integer {integer} left by {places} positions gives {variable}. Find {variable}.",
+      "Scale the integer {integer} down by {places} decimal places. The result is {variable}. Determine {variable}.",
+      "The decimal {variable} is formed by placing the decimal point {places} digits from the right in {integer}. What is {variable}?",
+      "Shifting the decimal point of {integer} {places} places to the left yields {variable}. What is {variable}?",
+      "When the integer {integer} is reduced by {places} decimal places, the value becomes {variable}. Find {variable}.",
+      "The value of {variable} equals the integer {integer} with its decimal shifted {places} positions left. Solve for {variable}.",
+      "Adjusting the decimal in {integer} {places} places to the left results in {variable}. What is {variable}?",
+      "To obtain {variable}, take the integer {integer} and move its decimal point {places} places left. Determine {variable}.",
+      "If the decimal in {integer} is moved {places} positions left, the new number is {variable}. What is {variable}?",
+      "Repositioning the decimal of {integer} {places} places left gives {variable}. Find {variable}."
+    ],
+    "quotient": [
+      "When {numerator} is divided by {denominator}, the result is {variable}. Find {variable}.",
+      "Splitting {numerator} into {denominator} equal parts yields {variable} per part. Solve for {variable}.",
+      "The value of {variable} equals {numerator} divided by {denominator}. Calculate {variable}.",
+      "If {numerator} is divided by {denominator}, the quotient becomes {variable}. What is {variable}?",
+      "Dividing {numerator} by {denominator} results in {variable}. Determine {variable}.",
+      "The ratio {numerator}/{denominator} corresponds to {variable}. Find {variable}.",
+      "To obtain {variable}, divide {numerator} by {denominator}. What is {variable}?",
+      "{numerator} divided by {denominator} produces the value {variable}. Solve for {variable}.",
+      "The quotient of {numerator} over {denominator} is {variable}. Identify {variable}.",
+      "How much is {variable} if {numerator} is divided by {denominator}? Express {variable}.",
+      "The division of {numerator} by {denominator} gives {variable}. Compute {variable}.",
+      "When {denominator} divides {numerator}, the outcome is {variable}. Find {variable}."
+    ]
+  },
+  "integration_templates": [],
+  "generator": {
+    "model": "Qwen3-14B",
+    "endpoint": "http://127.0.0.1:27632/v1/chat/completions",
+    "generated_at": "2026-09-01T10:08:49.905088+00:00",
+    "review_status": "approved"
+  },
+  "review": {
+    "reviewed_at": "2026-09-01T10:14:19.680375+00:00",
+    "source": "data/augmentation/teacher_candidates/Qwen3-14B.candidate.json",
+    "policy": "approved_partial_bank_for_mixed_renderer_only",
+    "approved_families": [
+      "subtraction_remainder",
+      "equal_shares",
+      "unit_price",
+      "constant_rate",
+      "missing_average",
+      "midpoint",
+      "arithmetic_sequence",
+      "place_value",
+      "quotient"
+    ],
+    "omitted_families": {
+      "additive_balance": "several awkward or sign-ambiguous contexts",
+      "rectangle_area": "teacher variants do not bind the variable to the missing length",
+      "rectangle_perimeter": "variants generally ask for an unbound variable rather than defining it as length",
+      "map_scale": "scale direction is reversed or ambiguous throughout",
+      "equal_edge_path": "many variants use the variable placeholder as an ungrammatical noun",
+      "percentage": "contains a post-reduction remainder relation inconsistent with percent-of"
+    },
+    "integration_templates": "all omitted because they treat the clue prose as a numeric operand; built-in wrappers must be used"
+  }
+}

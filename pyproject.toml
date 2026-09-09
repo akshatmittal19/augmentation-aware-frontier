@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decimal-subproblem-augmentation"
+version = "0.1.0"
+description = "Exact subproblem augmentation for procedural decimal arithmetic"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Akshat Mittal"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
